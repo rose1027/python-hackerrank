@@ -1,0 +1,7 @@
+fname = input("Enter File Name: ")
+fn = open(fname)
+readfile = fn.read()
+upfile = readfile.upper()
+nospaceonrightfile = upfile.strip()
+nospaceonleftfile = nospaceonrightfile.rstrip()
+print(nospaceonleftfile)
